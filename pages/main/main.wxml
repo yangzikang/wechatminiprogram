@@ -1,0 +1,44 @@
+<view>
+  <input placeholder="计算结果" value="{{result}}" />
+  <view>
+    <view class="flow">
+      <button class='b4' bindtap='addString'>+</button>
+      <button class='b4' bindtap='addString'>-</button>
+      <button class='b4' bindtap='addString'>*</button>
+      <button class='b4' bindtap='addString'>/</button>
+    </view>
+
+    <view class="flow">
+      <button class='b2' bindtap='removeString'>Back</button>
+      <button class='b2' bindtap='cleanString'>Clean</button>
+    </view>
+
+    <view>
+      <view class="flow">
+        <button class='b3' bindtap='addString'>1</button>
+        <button class='b3' bindtap='addString'>2</button>
+        <button class='b3' bindtap='addString'>3</button>
+      </view>
+
+      <view class="flow">
+        <button class='b3' bindtap='addString'>4</button>
+        <button class='b3' bindtap='addString'>5</button>
+        <button class='b3' bindtap='addString'>6</button>
+      </view>
+
+      <view class="flow">
+        <button class='b3' bindtap='addString'>7</button>
+        <button class='b3' bindtap='addString'>8</button>
+        <button class='b3' bindtap='addString'>9</button>
+      </view>
+
+      <view class="flow">
+        <button class='b3' bindtap='getResult'>=</button>
+        <button class='b3' bindtap='addString'>0</button>
+        <button class='b3' bindtap='addString'>.</button>
+      </view>
+    </view>
+
+  </view>
+
+</view>

@@ -1,0 +1,18 @@
+/* pages/main/main.wxss */
+.flow{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+}
+button{
+  height: 100rpx
+}
+.b2{
+  width: 50%
+}
+.b3{
+  width:33%
+}
+.b4{
+  width: 25%
+}
