@@ -1,20 +1,13 @@
-// pages/audio/audio.js
+// pages/video/video.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-      
+
   },
-  playAudio:function(e){
-      var audioNum = e._relatedInfo.anchorTargetText;
-      console.log(audioNum);
-      this.innerAudioContext = wx.createInnerAudioContext();
-      this.innerAudioContext.src = "assets/"+audioNum+".wav";
-      this.innerAudioContext.play();
-      console.log("开始");
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

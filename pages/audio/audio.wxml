@@ -1,2 +1,14 @@
 <!--pages/audio/audio.wxml-->
-<text>pages/audio/audio.wxml</text>
+<view class='layout'>
+  <view class='layout1'>
+    <view class="black btn" bindtap='playAudio'>1</view>
+    <view class="white btn" bindtap='playAudio'>2</view>
+    <view class="black btn" bindtap='playAudio'>3</view>
+    <view class="white btn" bindtap='playAudio'>4</view>
+    <view class="black btn" bindtap='playAudio'>5</view>
+    <view class="white btn" bindtap='playAudio'>6</view>
+    <view class="black btn" bindtap='playAudio'>7</view>
+  </view>
+
+  <view class='layout2'>钢琴</view>
+</view>

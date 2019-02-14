@@ -13,6 +13,8 @@ const formatNumber = n => {
   n = n.toString()
   return n[1] ? n : '0' + n
 }
+
+//-------------------------分割线------------------------------
 function isOperator(value) {
   var operatorString = '+-*/()×÷';
   return operatorString.indexOf(value) > -1;
@@ -113,5 +115,3 @@ module.exports = {
   formatTime: formatTime,
   calCommonExp: calCommonExp
 }
-
-

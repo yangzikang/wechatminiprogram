@@ -10,4 +10,7 @@
   <view class="usermotto">
     <text class="user-motto" bindtap='toMain'>{{motto}}</text>
   </view>
+  <view bindtap='toAudio'>音频播放</view>
+  <view bindtap='toVideo'>视频播放</view>
+  <switch checked="{{re}}" bindchange='switchstatus'></switch>
 </view>

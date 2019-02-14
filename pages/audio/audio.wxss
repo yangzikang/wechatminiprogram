@@ -1,1 +1,37 @@
 /* pages/audio/audio.wxss */
+
+.black {
+  background: #000;
+  color: #fff;
+}
+
+.white {
+  background: #fff;
+}
+
+.btn {
+  width: 100%;
+  height: 100rpx;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100rpx
+}
+
+.layout1 {
+  width: 80%;
+}
+
+.layout2 {
+  width: 20%;
+  font-weight: bold;
+  display: flex;
+  justify-content:center;
+  align-items:Center;
+  background: lightcoral;
+  color: #fff;
+  border: 8rpx solid #000;
+  height: 685rpx
+}

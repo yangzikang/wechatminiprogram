@@ -13,7 +13,7 @@ Page({
       });
   },
   removeString: function (){
-      var str = ""+this.data.result;
+      var str = ""+this.data.result; //转一下String
       str = str.substring(0,str.length-1);
       this.setData({
         result:str

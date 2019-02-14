@@ -2,8 +2,8 @@
 App({
   onLaunch: function () {
     // 展示本地存储能力
-    var logs = wx.getStorageSync('logs') || []
-    logs.unshift(Date.now())
+    var logs = wx.getStorageSync('logs') || [] //返回的是一个数组 :) 开心
+    logs.unshift(Date.now()) //添加一个元素
     wx.setStorageSync('logs', logs)
 
     // 登录

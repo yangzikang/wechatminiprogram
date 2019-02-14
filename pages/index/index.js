@@ -7,7 +7,20 @@ Page({
     motto: '计算器',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    re:true
+  },
+  switchstatus: function (e) {
+    var isopen = e.detail.value;
+    if (isopen) {
+      var openString = "开启";
+    } else {
+      openString = "关闭";
+    }
+    console.log(openString);
+    this.setData({
+      re: isopen
+    })
   },
   //事件处理函数
   bindViewTap: function() {
@@ -18,6 +31,16 @@ Page({
   toMain:function(){
     wx.navigateTo({
       url: '../main/main',
+    })
+  },
+  toAudio:function(){
+    wx.navigateTo({
+      url: '../audio/audio',
+    })
+  },
+  toVideo:function(){
+    wx.navigateTo({
+      url: '../video/video',
     })
   },
   onLoad: function () {
